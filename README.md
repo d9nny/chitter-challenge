@@ -1,13 +1,41 @@
 Chitter Challenge
 =================
 
+Installation
+------------
+
+To clone the repo on your machine:
+
+```sh
+$ git clone https://github.com/d9nny/chitter_challenge
+```
+
+Navigate to the root folder, install Gems, create and initialise the database and run the app:
+
+```sh
+$ bundle
+$ createdb chitter_development
+$ createdb chitter_test
+$ rake db:auto_migrate 
+```
+To run locally:
+```sh
+$ rackup
+```
+Now navigate to http://localhost:4567/ in your browser.
+
+To run tests:
+```sh
+$ rspec
+```
+
+Challenge:
+----------
+
 * Challenge time: The weekend and up to 9am Monday morning
 * Feel free to use google, your notes, books, etc but work on your own
 * You must submit a pull request to this repo with your code by 9am Monday morning
 * Please feel free to submit pull requests early at any time during the weekend to get automated feedback from Hound and test coverage stats from Coveralls
-
-Challenge:
--------
 
 As usual please start by 
 
